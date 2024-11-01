@@ -19,7 +19,9 @@ The version numbers are the versions that were tested - other versions might wor
 4. Run the notebook "periodic_table.ipynb" to create the periodic table plots shown in the SM.
 5. Optionally, you can verify the correct execution of the training/validation/test split by inspecting the **_set.txt files. The IDs of the materials contained in the splits used to train/validate/test the models in [1] are stored there. The correct execution of the split depends on the seed specified in "evaluation.ipynb", which is identical to the one used in [1].
 
+The data is available at [figshare](https://www.doi.org/10.6084/m9.figshare.27440652).
+
 **REFERENCES:**
 
-[1] M. Grunert, M. Großmann and E. Runge, **Deep learning of optical spectra of semiconductors and insulators**, to be published (2024)
+[1] M. Grunert, M. Großmann and E. Runge, **Deep learning of spectra: Predicting the dielectric function of semiconductors**, *Phys. Rev. Materials* (2024)
 [2] J. Schmidt, L. Pettersson, C. Verdozzi, S. Botti and M. Marques, **Crystal graph attention networks for the predictionof stable materials**, *Sci. Adv.* **7**, eabi7948 (2021)
