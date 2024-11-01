@@ -1,0 +1,72 @@
+# Inspired by: https://github.com/garrettj403/SciencePlots
+# Matplotlib plot style our group ().
+# Basis style which can be composed with others.
+
+# Set color cycle: blue, green, yellow, red, violet, gray
+axes.prop_cycle : cycler("color", ["#080808", "#000dfc", "#ff7f0e", "#1fb312", "#ff00ff", "#808080"])
+
+# Set default figure size
+figure.figsize : 2.5, 2.5
+figure.facecolor : white
+figure.dpi : 100
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : False
+xtick.top : False
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : False
+ytick.right : False
+
+# Set line widths
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1
+lines.markersize : 3
+
+# Remove legend frame
+legend.frameon : False
+
+# Axis border
+axes.spines.top: True
+axes.spines.bottom: True
+axes.spines.right : True
+axes.spines.left : True
+
+# Always save with a "tight_layout" with a high resolution
+savefig.dpi : 600
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+savefig.transparent : False
+savefig.facecolor : white
+
+# Use serif fonts
+# font.serif : Times
+font.family : serif
+mathtext.fontset : dejavuserif
+
+# Default colormap
+image.cmap : terrain
+
+# Font sizes
+font.size: 8
+axes.titlesize: 8
+axes.labelsize: 8
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 8
+legend.title_fontsize: 8
+
+# Use LaTeX for math formatting
+text.usetex : True
+#text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
